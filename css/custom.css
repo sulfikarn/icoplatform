@@ -1,0 +1,45 @@
+/*.navbar-brand-logo {height: 40px !important; width: auto;}*/
+.navbar-header {min-height: 70px !important;}
+.layout-content-body {margin-top: 20px !important;}
+.sidenav-toggler {height: 70px !important;}
+ul.navbar-right { margin-top: 10px !important;}
+#ProfileImageSpinner {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: -webkit-translate(-50%, -50%);
+  transform: -moz-translate(-50%, -50%);
+  transform: -ms-translate(-50%, -50%);
+  display: block;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 30px;
+  z-index: 1000;
+}
+.ImageBlur {
+  -webkit-filter: blur(5px); /* Safari */
+  filter: blur(5px);
+}
+.hidden {display: none;}
+.userSignup .row .md-form-group,.login-form .md-form-group {margin-bottom:2px !important; }
+#footer_sidebar {
+  width:100%; height:75px; background-color:#252834; position:absolute; bottom:0; left:0;
+}
+#footer_sidebar .item {width:50%; float:left; padding: 16px 0; text-align:center; display: block; cursor: pointer; color: #a7b1c2;}
+#footer_sidebar .item a {color:#a7b1c2;}
+#footer_sidebar .item:hover {background-color: #283745; }
+.sidenav li:last-child { padding-bottom: 80px;}
+.card-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.card-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
